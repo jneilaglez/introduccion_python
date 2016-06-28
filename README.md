@@ -1,1 +1,1 @@
-# Ejercicios básicos de un curso de introducción a python
+# Basic exercises for practise python.
