@@ -1,3 +1,5 @@
+""" Module for practise python basics concepts: 5_exercise. """
+
 numbers = range(2, 101, 2)
 # numbers = range(100, 1, -2)
 x = 11
