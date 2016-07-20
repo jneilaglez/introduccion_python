@@ -24,7 +24,8 @@ def is_integer(num):
 
 def get_sum_int(num_list):
     """
-    Receiving a list as parameter, return the plus of all its elements. Can not use sum function.
+    Receiving a list as parameter, return the plus of all its elements. Can not use sum
+    function.
     :param num_list: list of ints
     :return: plus of all elements
     """
@@ -57,7 +58,8 @@ print(double_pow(2, 2, 2))
 
 def get_pair_int(num_list):
     """
-    Receiving a list of ints, return other with those elements which are pair or greater than 113.
+    Receiving a list of ints, return other with those elements which are pair or
+    greater than 113.
     :param num_list: list of ints
     :return: list with pair elements greater than 113
     """

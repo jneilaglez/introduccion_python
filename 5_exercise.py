@@ -70,7 +70,8 @@ if x > 0 and x % 2 == 0:
     print("exacto")
 else:
     x /= 2
-""" If it is greater than 0, odd and lower or equal than 365, print out 'podría ser un día' else 'no lo es'. """
+""" If it is greater than 0, odd and lower or equal than 365, print out 'podría ser un
+día' else 'no lo es'. """
 if 365 >= x > 0 == x % 2:
     print("podría ser un día")
 else:
@@ -107,7 +108,8 @@ print([2 ** exp % 2 == 0 for exp in l_exp])
 """ Print out each element with his index. """
 print(["Index: {1}, Value: {0}".format(exp, i) for i, exp in enumerate(l_exp)])
 
-""" Using a variable in which we are going to store the result of the plus of 7 ** x. Power of 7 for each element. """
+""" Using a variable in which we are going to store the result of the plus of 7 ** x.
+Power of 7 for each element. """
 t_res = 0
 for exp in l_exp:
     t_res += 7 ** exp
