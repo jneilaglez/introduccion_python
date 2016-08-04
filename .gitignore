@@ -1,0 +1,7 @@
+# exclude IDE configuration files
+.idea/
+
+# exclude only files under this folders
+generated/*
+!generated/*.md
+
