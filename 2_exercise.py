@@ -17,7 +17,7 @@
 
 """ Module for practise python basics concepts: 2_exercise. """
 
-list1 = ["primero", 2, "3.5", 4.0, "ultimo"]
+list1 = ["primero", 2, "3.5", 4.0, "ultimo", 33]
 
 """ ¿list length?. """
 print(len(list1))
@@ -37,7 +37,8 @@ del list1[0]
 print(list1)
 
 """  Delete last 2 elements simultaneously. """
-del list1[2:]
+# del list1[len(list1)-2:]
+del list1[-2:]
 print(list1)
 
 """ Is list empty? """
